@@ -1,0 +1,73 @@
+.titleForm{
+    margin-top: 1rem;
+}
+
+.formFields {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding:  3rem;
+}
+.formFields .input {
+    margin: 0.6rem;
+}
+
+.formFields .btnLogin {
+    margin: 0.5rem;
+}
+
+.input{
+    width: 19.5rem;
+    height: 1.85rem;
+    border: none;
+    padding: 0.5rem;
+    background-color: #fff;
+    outline: none;
+    font-size: 16px;
+}
+
+.input:focus + .icon {
+    transition: 0.7s;
+    fill: #368ecc;
+}
+
+.icon{
+    transition: 0.3s;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    fill: #a6a7aa;
+}
+
+.inputAndIcon{
+    display: flex;
+   border: solid 1px #7c7c7e;
+   border-radius: 13px;
+   height: 4rem;
+   cursor: text;
+   width: 19.5rem;
+   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.219);
+   margin-top: 0.5rem;
+   margin-bottom: 1rem;
+
+}
+@media screen and (max-width: 60rem){
+    .titleForm{
+        size: 20px;
+    }
+   .inputAndIcon{
+    height: 3rem;
+    width: 18rem;
+   }
+   .input{
+    width: 18rem;
+    height: 0.6rem;
+   }
+   .icon {
+    padding-top: 0.4rem;
+    padding-right: 1rem;
+   }
+    
+}
