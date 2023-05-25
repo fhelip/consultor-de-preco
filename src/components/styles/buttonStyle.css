@@ -1,0 +1,30 @@
+.btnLogin{
+    border-radius: 12px;
+    align-self: center;
+    border:none;
+    width: 18rem;
+    height: 3rem;
+    padding: 1rem; 
+    background-color: #1d1d1d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.377);
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+.iconButton{
+    height:1rem;
+    padding-left: 0.5rem;
+}
+
+.btnLogin:hover {
+    transition: 0.5s;
+    border: solid 1px #000;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.637);
+
+}

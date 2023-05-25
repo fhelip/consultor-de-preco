@@ -1,5 +1,32 @@
+.containerRoot{
+    display: flex;
+    justify-content: center;
+}
+
 .containerMain {
     display: flex;
     align-items: center;
     text-align: center;
+    padding-top: 5rem;
+    background-color: #fff;
+    height: 26rem;
+    width: 60rem;
+    margin-top: 5rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.377);
+}
+
+.cotainerIllus {
+    margin-bottom: 5rem;
+}
+
+.containerForm{
+    margin-bottom: 5rem;
+}
+
+
+@media screen and (max-width: 60rem) {
+        .containerMain {
+            width: 50rem;
+        }
 }

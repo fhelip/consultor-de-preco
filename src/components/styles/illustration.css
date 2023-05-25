@@ -2,3 +2,11 @@
     width: 25rem;
     height: 25rem;
 }
+
+@media screen and (max-width: 60rem){
+    .illus {
+        width: 20rem;
+        height: 20rem;
+        
+    }
+}

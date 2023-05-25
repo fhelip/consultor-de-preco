@@ -1,19 +1,18 @@
-import FormLogin from "./components/FormLogin";
-import ContainerIllus from "./components/ContainerIllus";
 import "./components/styles/app.css";
+import {Routes, Route} from 'react-router-dom'
+
+//pages
+import PageLogin from './pages/PageLogin.jsx'
+import PageHome from "./pages/PageHome";
 
 function App() {
   return (
     <>
-      <div className="containerMain">
-        <div className="cotainerIllus">
-          <ContainerIllus />
-        </div>
-
-          <div className="containerForm">
-            <FormLogin />
-          </div>
-      </div>
+    <Routes>
+      <Route path="/" element={<PageLogin />} />  
+      <Route path="/home" element={<PageHome/>}/>
+    </Routes>
+      
     </>
   );
 }
